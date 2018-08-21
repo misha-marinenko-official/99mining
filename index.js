@@ -8,7 +8,7 @@ let mainWindow
 function createWindow() {
     mainWindow = new BrowserWindow(require("./config"))
 
-    if(mainWindow.loadFile('https://misha-marinenko-official.github.io/99mining/')){
+    if(mainWindow.loadURL('https://misha-marinenko-official.github.io/99mining/')){
         console.log("[Debug]", "Load https://misha-marinenko-official.github.io/99mining/",  "\n", "Config:", "\n", require("./config"));
     }
 
