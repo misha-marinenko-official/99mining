@@ -1,0 +1,24 @@
+{
+  "name": "99mining",
+  "version": "0.0.1",
+  "description": "Free cloud mining client based on electron + nodejs + yarn Dep's",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misha-marinenko-official/99mining.git"
+  },
+  "author": "Misha Marinenko <a0x77@icloud.com>",
+  "license": "GPL-3.0-or-later",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/misha-marinenko-official/99mining/issues"
+  },
+  "homepage": "https://github.com/misha-marinenko-official/99mining#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^2.0.7"
+  }
+}
